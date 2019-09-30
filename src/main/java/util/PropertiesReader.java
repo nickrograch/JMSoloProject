@@ -91,7 +91,7 @@ public class PropertiesReader {
     public void read(String type) throws IOException {
         Properties props = new Properties();
         String propFileName = "db.properties";
-        FileInputStream in = new FileInputStream("D:\\JavaMentors\\JMSoloProject\\src\\main\\resources\\db");
+        FileInputStream in = new FileInputStream("D:\\JavaMentors\\JMSoloProject\\src\\main\\resources\\db.property");
         //InputStream in = getClass().getClassLoader().getResourceAsStream(propFileName);
         props.load(in);
         in.close();
